@@ -1,0 +1,321 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color:#000;
+    color:#fff;
+    border-color: #080808;
+    min-height: 50px;
+    border: 1px solid transparent;
+    margin: 0;
+    position: 0;
+}
+.inner-header{
+    width:100%;
+    margin:auto;
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+    padding-top:100px;
+}
+
+.navbar-header img{
+    width: 100px;
+    padding: 0;
+    margin: 0;
+ background-color:white;
+   
+ 
+}
+.header{
+    background-color:white;
+    color:#fff;
+    border-color: #080808;
+    min-height: 50px;
+    border: 1px solid transparent;
+}
+
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+
+#content{
+    min-height: 600px;
+}
+
+#banner_image {
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url(./img/rawpixel-609002-unsplash.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+#banner_content {
+    position: relative;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    margin-top: 12%;
+    margin-bottom: 12%;
+    background-color: rgba(0, 0, 0, 0.7);
+    max-width: 660px;
+}
+
+#item_list {
+    padding-top: 50px;
+}
+
+/*This code ensures that when we navigate to a particular section of a page, the section does not get lost behind the header*/
+#cameras:before, #watches:before, #shirts:before{
+    display: block; 
+    content: " "; 
+    margin-top: -85px; 
+    height: 85px; 
+    visibility: hidden;
+}
+
+
+#login-panel .panel-footer{
+    font-weight:normal;
+}
+
+footer {
+    padding: 10px 0px;
+    background-color: black;
+    color:white;
+    width: 100%;
+    float: bottom;
+    position: relative;
+    margin: 0;
+}
+
+.red{
+    color:red;
+}
+
+#settings-container{
+    margin-bottom:10px;
+}
+
+.navbar-brand{
+    font-size:20px;
+}
+
+@media(max-width:768px) {
+    #banner_content {
+        padding-bottom: 15%;
+    }
+    footer{
+        text-align:left;
+        background-color: #ff0000 ;
+    }
+}
+
+.remove_item_link{
+    color:#0000ff;
+}
+.navbar-form{
+	margin:100px;
+
+}
+#banner_img {
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url(./img/mn.jpg) no-repeat center center;
+    background-size: cover;
+
+
+
+   
+}
+#banner_con {
+    position: relative;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    margin-top: 12%;
+    margin-bottom: 12%;
+    max-width: 660px;
+}
+.navbar-default{
+	background: url(./img/#) no-repeat center center;
+
+}
+
+nav{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 70px;
+	background: rgb(0,0,0,0.6); 
+	padding-top: 0 100px;
+	box-sizing: border-box;
+	background-color: red;
+    line-height: 80px;
+}
+
+
+.navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+  margin: 0;
+  padding:0;
+  
+}
+}
+.middle{
+    background-color: #A9A9A9;
+    width: 50%;
+}
+#banner-image {
+    ;
+    text-align: center;
+    color: #f8f8f8;
+    background: url(./img/abc.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+
+/* Style the links inside the sidenav */
+#mySidenav a {
+    position: absolute; /* Position them relative to the browser window */
+    left: -80px; /* Position them outside of the screen */
+    transition: 0.3s; /* Add transition on hover */
+    padding: 15px; /* 15px padding */
+    width: 100px; /* Set a specific width */
+    text-decoration: none; /* Remove underline */
+    font-size: 20px; /* Increase font size */
+    color: white; /* White text color */
+    border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+}
+
+#mySidenav a:hover {
+    left: 0; /* On mouse-over, make the elements appear as they should */
+}
+
+/* The about link: 20px from the top with a green background */
+#home {
+    top: 100px;
+    background-color: #4CAF50;
+}
+
+#about {
+    top: 180px;
+    background-color: #2196F3; /* Blue */
+}
+
+#contact {
+    top: 260px;
+    background-color: #f44336; /* Red */
+}
+
+#blog {
+    top: 340px;
+    background-color: #555; /* Light Black */
+
+}
+input[type=text], select, textarea{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+/* Style the label to display next to the inputs */
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+/* Style the submit button */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+/* Floating column for inputs: 75% width */
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+.a {
+    border-radius: 50%;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: #2F4F4F   ;
+    color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #2F4F4F   ;
+    color: white;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}

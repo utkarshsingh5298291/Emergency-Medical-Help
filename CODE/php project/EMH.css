@@ -1,0 +1,106 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 22 Sep, 2018, 1:37:39 AM
+    Author     : Sudhanshu
+*/
+
+
+body
+    {
+        max-width: 1000px;
+        margin: 150px;
+        font-family: Roboto;
+        font-size: 32px;
+        color:tomato;
+        background-color: black;
+        margin-left: auto;
+    margin-right: auto;
+    width:100%;
+    
+    }
+      p {
+       font-family: Roboto;
+       font-size: 20px;
+     }
+     #Data{
+padding: 50px;
+    margin: 30px;
+     }
+     #image
+     {
+         float: left;
+         padding: 0px 20px 20px 20px;
+     }
+     
+     #identity{
+    overflow: auto;
+   
+}
+
+body{
+    padding-top:100px;
+    
+}
+
+.navbar-header img{
+    width: 100px;
+    padding: 0;
+    margin: 0;
+ background-color:white;
+   
+ 
+}
+.header{
+    background-color:white;
+    color:#fff;
+    border-color: #080808;
+    min-height: 50px;
+    border: 1px solid transparent;
+}
+footer {
+    padding: 10px 0px;
+    background-color: black;
+    color:white;
+    width: 100%;
+    float: bottom;
+    position: relative;
+    margin: 0;
+}@media(max-width:768px) {
+    #banner_content {
+        padding-bottom: 15%;
+    }
+    footer{
+        
+        background-color: #ff0000 ;
+    }
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 10px;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
+th, td {
+    text-align: left;
+    padding: 16px;
+
+font-size:26px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.foot{
+    padding: 0;
+}
